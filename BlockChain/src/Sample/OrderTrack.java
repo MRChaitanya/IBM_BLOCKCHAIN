@@ -20,7 +20,7 @@ public class OrderTrack {
 		for(int items=0; items<j; items++) {
 		
 			System.out.println("Creating the block for the item entered ");
-			blockchain.add(new OrderBlock("Hi This is the order", "0"));
+			blockchain.add(new OrderBlock("Hi This is the order when order is placed", "0"));
 		System.out.println("Trying to Mine block of order ... ");
 		blockchain.get(0).mineBlock(difficulty);
 		
